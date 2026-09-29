@@ -151,24 +151,31 @@ The notebook produces the following visualisations:
 **1. Customer volume by segment**
  
 <img src="images/01_customer_volume_by_segment.png" width="600" alt="Customer volume by segment">
+
 **2. Customer age distribution**
  
 <img src="images/02_age_distribution.png" width="600" alt="Customer age distribution">
+
 **3. Customer density: income bracket vs. education level**
  
 <img src="images/03_income_vs_education.png" width="600" alt="Income bracket vs. education level">
+
 **4. Purchase volume vs. order value (bubble size = total spent)**
  
 <img src="images/04_purchases_vs_order_value.png" width="700" alt="Purchase volume vs. average order value">
+
 **5. Correlation heatmap**
  
 <img src="images/05_correlation_heatmap.png" width="800" alt="Correlation heatmap">
+
 **6. Satisfaction vs. customer health score**
  
 <img src="images/06_satisfaction_vs_health.png" width="650" alt="Satisfaction vs. health score by churn risk">
+
 **7. Operational friction matrix: returns and complaints vs. churn risk**
  
 <img src="images/07_operational_friction_heatmap.png" width="650" alt="Returns and complaints impact on churn risk">
+
 **8. Loyalty tier vs. RFM segment profitability**
  
 <img src="images/08_rfm_loyalty_profitability.png" width="700" alt="Loyalty tier vs. RFM profitability">
