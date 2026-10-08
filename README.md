@@ -33,9 +33,7 @@ This repository contains an end-to-end Machine Learning project focused on analy
 7. Modeling & Results
 8. Feature Importance
 9. Business Impact Analysis
-10. Installation & Usage
-11. Repository Structure
-12. Future Improvements
+10. Repository Structure
 
 ---
 
@@ -330,53 +328,6 @@ Naive Bayes captures more CLV because of its higher recall, while XGBoost flags 
 
 ---
 
-## ⚙️ Installation & Usage
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
-
-### 2. Create a virtual environment (recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate        # macOS / Linux
-venv\Scripts\activate           # Windows
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Or install manually:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap jupyter ipywidgets
-```
-
-### 4. Add the dataset
-
-Place `E-commerce_Customer_Segmentation_2026.csv` in the `data/` folder and update the path in the notebook. Use a **relative path** rather than a machine-specific absolute path:
-
-```python
-df = pd.read_csv('data/E-commerce_Customer_Segmentation_2026.csv')
-```
-
-### 5. Run the notebook
-
-```bash
-jupyter notebook churn_prediction.ipynb
-```
-
-Run the cells top to bottom.
-
----
-
 ## Repository Structure
 
 ```
@@ -390,20 +341,6 @@ Run the cells top to bottom.
 │   └── ...
 └── README.md
 ```
-
-*(Adjust file names to match your repository.)*
-
----
-
-## Future Improvements
-
-- Verify and remove possible label leakage.
-The churn label comes from `activity_status`, and some features left in the Stage 2 model (`segment_category`, `behavior_segment`, `frequency_score`) may be derived from customer activity. Their high importance (0.22, 0.19 and 0.02) suggests they could be encoding the target. 
-- Investigate the dominance of `purchase_frequency`. 
-It explains 45–67% of feature importance, and most models stabilize at about 90%.
-- Add k-fold cross-validation and hyperparameter tuning.
-- Handle class imbalance and compare the results.
-
 
 ---
 
