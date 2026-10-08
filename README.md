@@ -22,7 +22,7 @@ This repository contains an end-to-end Machine Learning project focused on analy
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 1. [Project Overview](#-project-overview)
 2. [Business Problem](#-business-problem)
@@ -62,7 +62,7 @@ Acquiring a new customer is typically far more expensive than keeping an existin
 For the answer to this question recall on the churn class matters most, besause every missed churner is lost lifetime value. Precision matters too, because every false alarm costs campaign budget. The project therefore evaluates models on **precision, recall and F1** for the churn class, not **accuracy** alone.
 
 ---
-## 📂 Dataset
+## Dataset
  
 This project uses the **[E-Commerce Customer Segmentation Dataset 2026](https://www.kaggle.com/datasets/datascikhan/e-commerce-customer-segmentation-2026)** by *datascikhan* on Kaggle.
  
@@ -129,7 +129,7 @@ Financial impact estimate
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The notebook produces the following visualisations:
 
@@ -397,15 +397,12 @@ Run the cells top to bottom.
 
 ## Future Improvements
 
-- **Verify and remove possible label leakage.** 
+- Verify and remove possible label leakage.
 The churn label comes from `activity_status`, and some features left in the Stage 2 model (`segment_category`, `behavior_segment`, `frequency_score`) may be derived from customer activity. Their high importance (0.22, 0.19 and 0.02) suggests they could be encoding the target. 
-- **Investigate the dominance of `purchase_frequency`.** 
+- Investigate the dominance of `purchase_frequency`. 
 It explains 45–67% of feature importance, and most models stabilize at about 90%.
-- Add **k-fold cross-validation** and **hyperparameter tuning** (`GridSearchCV` / `Optuna`)
-- Report **ROC-AUC and PR-AUC**, and tune the decision threshold against a cost matrix
-- Handle class imbalance (class weights, SMOTE) and compare
-- **Handle class imbalance** and compare the results.
-- **Build a more realistic financial model.**
+- Add k-fold cross-validation and hyperparameter tuning.
+- Handle class imbalance and compare the results.
 
 
 ---
