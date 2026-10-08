@@ -24,18 +24,18 @@ This repository contains an end-to-end Machine Learning project focused on analy
 
 ## Table of Contents
 
-1. [Project Overview](#-project-overview)
-2. [Business Problem](#-business-problem)
-3. [Dataset](#-dataset)
-4. [Project Workflow](#-project-workflow)
-5. [Exploratory Data Analysis](#-exploratory-data-analysis)
-6. [Data Preparation](#-data-preparation)
-7. [Modeling & Results](#-modeling--results)
-8. [Feature Importance](#-feature-importance)
-9. [Business Impact Analysis](#-business-impact-analysis)
-10. [Installation & Usage](#-installation--usage)
-11. [Repository Structure](#-repository-structure)
-12. [Future Improvements](#-future-improvements)
+1. Project Overview
+2. Business Problem
+3. Dataset
+4. Project Workflow
+5. Exploratory Data Analysis
+6. Data Preparation
+7. Modeling & Results
+8. Feature Importance
+9. Business Impact Analysis
+10. Installation & Usage
+11. Repository Structure
+12. Future Improvements
 
 ---
 
